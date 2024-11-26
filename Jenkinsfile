@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script{
                     docker.withRegistry('https://908027401133.dkr.ecr.ap-southeast-2.amazonaws.com/asgbuggy', 'ecr:ap-southeast-2:aws-credentials') {
-                    app.push("latest")                                                                        
+                    app.push("latests")                                                                        
                     }
                 }
             }
